@@ -1,0 +1,45 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-size: cover;
+	font-family: sans-serif;
+	background-color:#c6ecd7;
+	background-image: url(5.jpg);
+}
+.tt{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 500px;
+	height: 610px;
+	padding: 110px 50px;
+	box-sizing: border-box;
+	background-image: url(1.jpg); 
+}
+.tt input{
+	width: 100%;
+	margin-bottom: 20px;
+	height: 40px;
+	background-color:#75a3a3 ;
+	border-radius: 5px;
+}
+.tt textarea{
+	width: 100%;
+	margin-bottom: 10px;
+	height: 40px;
+	background-color:#75a3a3; 
+	border-radius: 5px;
+}
+.tt input[type="submit"]:hover
+{
+	background: #efed40;
+	color: #262626;
+	cursor: pointer;
+	}
+.tt input[type="reset"]:hover
+{
+	background: #efed40;
+	color: #262626;
+	cursor: pointer;
+	}
